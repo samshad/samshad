@@ -37,9 +37,11 @@ jobs:
       run: |
         git config user.name "github-actions[bot]"
         git config user.email "github-actions[bot]@users.noreply.github.com"
+        # Ensure we're on master and tracking origin/master
+        git checkout master || git checkout -b master origin/master
+        git pull origin master --rebase
         git add .
         git commit -m "Automated update of talk locations" || echo "No changes to commit"
-        git pull origin master --rebase
         git push origin master
 
     # - name: Commit changes
