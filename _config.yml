@@ -27,7 +27,7 @@ author:
   pronouns         : "He/His" # example: "she/her"
   bio              : "MSc Applied CS grad Dalhousie University 🎓 | Python backend | LLM fine-tuning | AWS/GCP/Docker | Data-driven problem-solver"
   location         : "Halifax, NS, Canada" # Location of the author
-  employer         : ""
+  employer         : # Name of the employer
   uri              : # URL
   email            : "samshad@dal.ca" # Email address of the author
 
