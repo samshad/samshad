@@ -30,6 +30,10 @@ jobs:
       run: |
         jupyter nbconvert --to notebook --execute talkmap.ipynb --output talkmap_out.ipynb
 
+    - uses: actions/checkout@v2
+      with:
+        fetch-depth: 0  # Fetch all history for all branches and tags
+
     - name: Commit changes
       run: |
         git config user.name "github-actions[bot]"
