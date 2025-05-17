@@ -15,6 +15,9 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+      with:
+          fetch-depth: 0
+          ref: master
 
     - name: Set up Python
       uses: actions/setup-python@v2
@@ -29,11 +32,6 @@ jobs:
     - name: Run Jupyter Notebook
       run: |
         jupyter nbconvert --to notebook --execute talkmap.ipynb --output talkmap_out.ipynb
-
-    - uses: actions/checkout@v2
-      with:
-        fetch-depth: 0
-        ref: master
 
     - name: Commit changes
       run: |
