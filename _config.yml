@@ -22,7 +22,7 @@ repository               : "samshad/samshad.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.JPG" # filename of profile image placed in /images/, e.g. "profile.png"
+  avatar           : "profile.jpg" # filename of profile image placed in /images/, e.g. "profile.png"
   name             : "Md Samshad Rahman" # The name of the author
   pronouns         : "He/His" # example: "she/her"
   bio              : "MSc Applied CS grad Dalhousie University 🎓 | Python backend | LLM fine-tuning | AWS/GCP/Docker | Data-driven problem-solver"
