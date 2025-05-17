@@ -13,12 +13,12 @@ By trade, I'm an **MSc Applied Computer Science grad from Dalhousie University**
 
 ## 🛠️  My Professional Playground
 
-| 🚀 Focus | How I roll                                                                           |
-|---------|--------------------------------------------------------------------------------------|
-| **Clean, scalable backends** | Python power trio: FastAPI, Django, Flask                                            |
-| **Data alchemy** | PostgreSQL • MongoDB • DynamoDB • spaCy • NLTK                                       |
-| **LLM fine-tuning** | Bridging raw model muscle with real-world usefulness                                 |
-| **Cloud-native dev** | AWS (Lambda, EC2, API Gateway) & GCP - So my code keeps running while I’m my coffee! |
+| 🚀 Focus | How I roll                                                                                   |
+|---------|----------------------------------------------------------------------------------------------|
+| **Clean, scalable backends** | Python power trio: FastAPI, Django, Flask                                                    |
+| **Data alchemy** | PostgreSQL • MongoDB • DynamoDB • spaCy • NLTK                                               |
+| **LLM fine-tuning** | Bridging raw model muscle with real-world usefulness                                         |
+| **Cloud-native dev** | AWS (Lambda, EC2, API Gateway) & GCP - So my code keeps running while I’m brewing my coffee! |
 
 ---
 
