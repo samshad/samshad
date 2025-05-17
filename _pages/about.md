@@ -1,24 +1,10 @@
-[//]: # (---)
-
-[//]: # (permalink: /)
-
-[//]: # (title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites")
-
-[//]: # (author_profile: true)
-
-[//]: # (redirect_from: )
-
-[//]: # (  - /about/)
-
-[//]: # (  - /about.html)
-
-[//]: # (---)
-
 ---
-[//]: # (layout: archive # or 'single' or 'home' depending on the theme's default for the homepage)
-title: "About Me"
 permalink: /
-author_profile: true # To show your profile sidebar
+title: "About Me"
+author_profile: true
+redirect_from: 
+  - /about/
+  - /about.html
 ---
 
 I'm a **Backend Developer** who enjoys solving real problems with code — from building fast and clean APIs to making sense of messy data. I love working at the intersection of **backend systems**, **data**, and **AI**.
