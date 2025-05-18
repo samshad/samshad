@@ -31,13 +31,13 @@ This project demonstrates how a lean, event-driven architecture can turn raw gue
 ### Architecture Snapshot
 
 <p align="center">
-  <img src="images/Feedback_Architechture.png" alt="Serverless Sentiment Analysis Architecture" width="100%">
+  <img src="https://raw.githubusercontent.com/samshad/samshad/refs/heads/master/images/Feedback_Architechture.jpg" alt="Serverless Sentiment Analysis Architecture" width="70%">
   <br>
   <em>Figure 1: Event-driven pipeline from user feedback to sentiment insights</em>
 </p>
 
 <p align="center">
-  <img src="images/Dashboard_Architechture.png" alt="Dashboard Architecture" width="100%">
+  <img src="https://raw.githubusercontent.com/samshad/samshad/refs/heads/master/images/Dashboard_Architechture.jpg" alt="Dashboard Architecture" width="70%">
   <br>
   <em>Figure 2: Pipeline feeding the Looker Studio dashboard</em>
 </p>
