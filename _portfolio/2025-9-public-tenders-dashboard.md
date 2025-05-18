@@ -10,7 +10,7 @@ This project delivers an end-to-end analytics pipeline and dashboard that empowe
 **Key Contributions & Features:**
 * **Interactive Dash Dashboard:**
   * Enables real-time filtering (date range, buyer, supplier, contract value).
-  * Presents KPI cards, dynamic Plotly charts, and drill-down tables for deep dives.
+  * Presents dynamic Plotly charts, and drill-down tables for deep dives.
 * **NLP-Driven Topic Modeling:**
   * Applied **BERTopic** to over 10 years of tender descriptions, surfacing latent procurement themes.
   * Topic trends visualized over time to highlight emerging purchasing priorities.
@@ -28,7 +28,7 @@ This project delivers an end-to-end analytics pipeline and dashboard that empowe
 ### Dashboard Snapshot
 
 <p align="center">
-  <img src="images/tender-dashboard.png" alt="Public Tenders Dashboard Screenshot" width="100%">
+  <img src="https://raw.githubusercontent.com/samshad/samshad/refs/heads/master/images/tender-dashboard.png" alt="Public Tenders Dashboard Screenshot" width="50%">
   <br>
-  <em>Figure — Interactive dashboard revealing procurement trends</em>
+  <em>Figure — Interactive dashboard revealing procurement trends and KPIs</em>
 </p>
