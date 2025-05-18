@@ -2,7 +2,11 @@
 title: "AI-Powered Mindful Eating App"
 excerpt: "A personalized mobile app leveraging fine-tuned LLMs (Llama 3) and a FastAPI backend to deliver AI-driven dietary suggestions and promote mindful eating habits."
 collection: portfolio
-github_link: https://github.com/samshad/mindful-eating-backend
+# github_link: https://github.com/samshad/mindful-eating-backend
+links:
+  - label: "GitHub"
+    icon: "fab fa-github"
+    url: "https://github.com/samshad/mindful-eating-backend"
 ---
 
 This project involved the end-to-end development of a personalized mindful eating mobile application.
