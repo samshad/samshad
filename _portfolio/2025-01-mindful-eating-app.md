@@ -2,9 +2,7 @@
 title: "AI-Powered Mindful Eating App"
 excerpt: "A personalized mobile app leveraging fine-tuned LLMs (Llama 3) and a FastAPI backend to deliver AI-driven dietary suggestions and promote mindful eating habits."
 collection: portfolio
-# date: 2025-01-15 - 2025-05-10 # Start date to end date of the project
-# venue: "Persuasive Computing Lab, Dalhousie University"
-# item_url: "https://github.com/samshad/mindful-eating-backend" # Optional: Link to project repo/demo
+github_link: https://github.com/samshad/mindful-eating-backend
 ---
 
 This project involved the end-to-end development of a personalized mindful eating mobile application.
