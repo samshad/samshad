@@ -28,5 +28,5 @@ This project involved the end-to-end development of a personalized mindful eatin
 ### System Architecture:
 <figure style="text-align: center;">
   <img src="https://raw.githubusercontent.com/samshad/mindful-eating-backend/refs/heads/master/assets/system-architecture.png" alt="System Architecture" width="100%">
-  <figcaption style="font-style: italic; margin-top: 6px;">Figure: System Architecture of the AI-Powered Mindful Eating App</figcaption>
+  <figcaption style="font-style: italic; margin-top: 6px; text-align: center;">Figure: System Architecture of the AI-Powered Mindful Eating App</figcaption>
 </figure>
