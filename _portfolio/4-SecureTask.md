@@ -30,6 +30,6 @@ The app lets users **register, verify their face against an ID photo, and manage
 ### Architecture Snapshot
 
 <p align="center">
-    <img src="images/SecureTask_Flow.png" alt="SecureTask System Design" width="100%"><br>
+    <img src="https://raw.githubusercontent.com/samshad/samshad/refs/heads/master/images/SecureTask_Flow.jpg" alt="SecureTask System Design" width="60%"><br>
     <em>Figure — System Design</em>
 </p>
