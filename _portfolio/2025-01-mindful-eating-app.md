@@ -19,6 +19,3 @@ This project involved the end-to-end development of a personalized mindful eatin
 *   **Personality Classifier:** Built a Big Five personality classifier trained on 2,467 essays using the Symanto NLP API.
 
 **Technologies Used:** Python, FastAPI, PostgreSQL, React Native, Expo, Ollama, UnslothAI, LoRA, Google Colab, Symanto NLP API, Docker, EC2.
-
-**Project Duration:** January 2025—May 2025
-**Project URL:** [GitHub Repository](https://github.com/samshad/mindful-eating-backend)
