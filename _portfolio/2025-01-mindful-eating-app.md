@@ -26,7 +26,7 @@ This project involved the end-to-end development of a personalized mindful eatin
 [![Code on GitHub](https://img.shields.io/badge/Source-Code-blue?logo=github)](https://github.com/samshad/mindful-eating-backend)
 
 ### System Architecture:
-<figure>
+<figure style="text-align: center;">
   <img src="https://raw.githubusercontent.com/samshad/mindful-eating-backend/refs/heads/master/assets/system-architecture.png" alt="System Architecture" width="100%">
-  <figcaption style="text-align: center;">Figure: System Architecture of the AI-Powered Mindful Eating App</figcaption>
+  <figcaption style="font-style: italic; margin-top: 6px;">Figure: System Architecture of the AI-Powered Mindful Eating App</figcaption>
 </figure>
