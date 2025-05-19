@@ -31,5 +31,5 @@ This project involved the end-to-end development of a personalized mindful eatin
   <img src="https://raw.githubusercontent.com/samshad/mindful-eating-backend/refs/heads/master/assets/system-architecture.png"
        alt="System Architecture" width="100%">
   <br>
-  <em>Figure — System Architecture of the AI-Powered Mindful Eating App</em>
+  <em>Figure: System Architecture of the AI-Powered Mindful Eating App</em>
 </p>

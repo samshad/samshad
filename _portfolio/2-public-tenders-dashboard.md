@@ -30,5 +30,5 @@ This project delivers an end-to-end analytics pipeline and dashboard that empowe
 <p align="center">
   <img src="https://raw.githubusercontent.com/samshad/samshad/refs/heads/master/images/tender-dashboard.jpg" alt="Public Tenders Dashboard Screenshot" width="50%">
   <br>
-  <em>Figure — Interactive dashboard revealing procurement trends and KPIs</em>
+  <em>Figure: Interactive dashboard revealing procurement trends and KPIs</em>
 </p>
