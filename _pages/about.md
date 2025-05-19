@@ -9,15 +9,22 @@ redirect_from:
 
 By trade, I'm an **MSc Applied Computer Science grad from Dalhousie University**, architecting robust backend systems and diving deep into the world of AI and Large Language Models. By passion, I'm a connoisseur of compelling narratives (in games, movies, or even well-structured data), a seeker of that perfect indie track, and a firm believer that most problems can be improved with good coffee and a quiet moment by the ocean.
 
-## 🛠️  My Professional Playground
+[//]: # (## 🛠️  My Professional Playground)
 
-| 🚀 Focus | How I roll                                                                                   |
-|---------|----------------------------------------------------------------------------------------------|
-| **Clean, scalable backends** | Python power trio: FastAPI, Django, Flask                                                    |
-| **Data alchemy** | PostgreSQL • MongoDB • DynamoDB • spaCy • NLTK                                               |
-| **LLM fine-tuning** | Bridging raw model muscle with real-world usefulness                                         |
-| **Cloud-native dev** | AWS (Lambda, EC2, API Gateway) & GCP - So my code keeps running while I’m brewing my coffee! |
-| **Soft Skills** | Empathy, communication, and a dash of humor - because tech is as much about people as it is about code. |
+[//]: # ()
+[//]: # (| 🚀 Focus | How I roll                                                                                   |)
+
+[//]: # (|---------|----------------------------------------------------------------------------------------------|)
+
+[//]: # (| **Clean, scalable backends** | Python power trio: FastAPI, Django, Flask                                                    |)
+
+[//]: # (| **Data alchemy** | PostgreSQL • MongoDB • DynamoDB • spaCy • NLTK                                               |)
+
+[//]: # (| **LLM fine-tuning** | Bridging raw model muscle with real-world usefulness                                         |)
+
+[//]: # (| **Cloud-native dev** | AWS &#40;Lambda, EC2, API Gateway&#41; & GCP - So my code keeps running while I’m brewing my coffee! |)
+
+[//]: # (| **Soft Skills** | Empathy, communication, and a dash of humor - because tech is as much about people as it is about code. |)
 
 ### The Off-Duty Algorithm (aka What Fuels Me)
 
