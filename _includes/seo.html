@@ -1,5 +1,37 @@
 {% include base_path %}
 
+{% comment %} Minimal SEO include – calls the plugin then adds brand extras {% endcomment %}
+{% seo %}
+
+{%- if page.keywords or site.keywords -%}
+  <meta name="keywords"
+        content="{{ page.keywords | default: site.keywords | join: ', ' }}">
+{%- endif -%}
+
+{%- unless page.noindex -%}
+  <meta name="robots" content="index, follow">
+{%- else -%}
+  <meta name="robots" content="noindex, nofollow">
+{%- endunless -%}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "https://www.mdsamshad.com/#samshad",
+  "name": "Md Samshad Rahman",
+  "alternateName": ["Samshad", "Md Samshad", "SamshadRU", "Samshad Rahman", "Md Samshad Rahman"],
+  "url": "https://www.mdsamshad.com/",
+  "jobTitle": "Backend & AI Engineer | Python Developer",
+  "description": "MSc Applied CS grad specialising in Python backend, LLM fine-tuning, and cloud DevOps.",
+  "sameAs": [
+    "https://github.com/samshad/",
+    "https://www.linkedin.com/in/samshadrahman/",
+    "https://x.com/samshadru"
+  ]
+}
+</script>
+
 <!-- begin SEO -->
 {% if site.url %}
   {% assign seo_url = site.url | append: site.baseurl %}
