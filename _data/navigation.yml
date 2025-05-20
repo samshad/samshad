@@ -25,6 +25,7 @@ main:
     
   - title: "CV"
     url: /files/Md-Samshad-Resume.pdf
+    target: "_blank"
 
   # - title: "CV"
   #   url: /cv-json/
