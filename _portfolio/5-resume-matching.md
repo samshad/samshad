@@ -1,26 +1,36 @@
 ---
 title: "Resume ⇔ Job Matching Engine"
-excerpt: "An NLP-driven service that ranks resumes against open job descriptions with multi-class classification, named-entity extraction, and real-time REST APIs."
+excerpt: "As a Junior Python Developer, I built an NLP-powered service that intelligently ranks resumes against job descriptions, using multi-class classification and named-entity extraction to streamline the recruitment process."
 collection: portfolio
 # github_link: https://github.com/samshad/resume-job-matching
 ---
 
-Developed during my tenure as a **Junior Python Developer** at Smartbytes Ltd. (Bangladesh), this project automates screening by scoring and ranking candidate résumés against job ads, freeing recruiters from manual keyword hunts.
+During my time as a **Junior Python Developer at Smartbytes Ltd. (Bangladesh)**, I developed this project to tackle a common challenge: making the initial screening of resumes faster and more effective. My goal was to automate the tedious manual keyword searching and provide recruiters with a ranked list of the most suitable candidates.
 
-**Key Contributions & Features**
-* **End-to-End Data Pipeline**  
-  * Scraped & normalised **15 k+** public resumes and job ads with Selenium + BeautifulSoup.
-  * Stored structured text in PostgreSQL via SQLAlchemy for repeatable experiments.
-* **Rich Feature Engineering**
-  * Used **spaCy + NLTK** NER to pull skills, education, locations, and experience.
-  * Generated TF-IDF vectors and engineered “skill-overlap” and “seniority-gap” scores.
-* **Multi-Class Matching Model**
-  * Benchmarked Logistic Regression, Random Forest, and **LinearSVC**; the latter lifted macro-F1 by **≈ 40 %** over baseline.
-  * Top-5 match accuracy reached **92 %** on a 20-class held-out set.
-* **FastAPI Micro-service**
-  * `/match/` endpoint accepts a résumé + JD, returns a ranked list with confidence scores.
-  * Swagger docs auto-generated for the frontend team of six developers.
-* **Containerised Deployment**
-  * Docker and GitHub Actions CI push images to AWS ECR; ECS service auto-scales on CPU load.
+**Key Contributions & What I Built:**
 
-**Technologies Used:** Python, spaCy, NLTK, scikit-learn, FastAPI, SQLAlchemy, TF-IDF, LinearSVC, BeautifulSoup, Selenium, PostgreSQL, Docker, AWS ECS.
+*   **Comprehensive End-to-End Data Pipeline:**
+    *   I engineered a system to scrape and normalize over **15,000+** public resumes and job advertisements using Selenium and BeautifulSoup.
+    *   This structured text data was then stored efficiently in PostgreSQL via SQLAlchemy, creating a reliable foundation for repeatable experiments and model training.
+*   **Sophisticated Feature Engineering for Deeper Insights:**
+    *   Leveraging **spaCy and NLTK**, I implemented Named Entity Recognition (NER) to extract key information like skills, educational background, locations, and years of experience from the text.
+    *   I then generated TF-IDF vectors and engineered custom features such as "skill-overlap" and "seniority-gap" scores to capture more nuanced relationships between resumes and job descriptions.
+*   **High-Performance Multi-Class Matching Model:**
+    *   I rigorously benchmarked several models, including Logistic Regression and Random Forest. Ultimately, a **LinearSVC model proved most effective, boosting the macro-F1 score by approximately 40%** compared to the baseline.
+    *   The model achieved an impressive **top-5 match accuracy of 92%** when tested on a held-out set with 20 distinct job categories.
+*   **Efficient FastAPI Microservice for Real-Time Matching:**
+    *   I developed a REST API using FastAPI, featuring a `/match/` endpoint that accepts a resume and job description, returning a ranked list of candidates with corresponding confidence scores.
+    *   To support the frontend team of six developers, I ensured Swagger documentation was automatically generated for easy integration.
+*   **Streamlined Containerized Deployment:**
+    *   I containerized the application using Docker and set up a CI/CD pipeline with GitHub Actions to automatically push images to AWS ECR. The application was deployed as an AWS ECS service, configured to auto-scale based on CPU load.
+
+**What This Project Highlights About My Abilities:**
+
+*   **Practical NLP Application:** Successfully applying techniques like NER, TF-IDF, and text classification (LinearSVC) to solve a real-world business problem.
+*   **Full-Cycle Machine Learning Development:** From data collection and preprocessing to feature engineering, model training, evaluation, and deployment.
+*   **Backend & API Development:** Proficiency in building robust and scalable microservices with Python and FastAPI.
+*   **Data Engineering & Management:** Experience with web scraping (Selenium, BeautifulSoup), data storage (PostgreSQL, SQLAlchemy), and building data pipelines.
+*   **DevOps & Cloud Deployment:** Skills in containerization (Docker) and CI/CD (GitHub Actions) for deployment on AWS (ECR, ECS).
+*   **Collaboration & Impact:** Delivering a tool that directly supported a development team and aimed to improve recruiter efficiency.
+
+**Key Technologies I Employed:** Python, spaCy, NLTK, scikit-learn, FastAPI, SQLAlchemy, TF-IDF, LinearSVC, BeautifulSoup, Selenium, PostgreSQL, Docker, AWS ECS, GitHub Actions.
