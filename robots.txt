@@ -1,0 +1,4 @@
+Sitemap: https://www.mdsamshad.com/sitemap.xml
+
+User-agent: *
+allow: /
