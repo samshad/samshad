@@ -37,6 +37,6 @@ This project was about building a secure and dynamic environment where users cou
 ### Architecture Snapshot
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/samshad/samshad/refs/heads/master/images/samshad/SecureTask_Flow.webp" alt="SecureTask System Design" width="60%"><br>
+    <img src="/images/system-design/SecureTask_Flow.webp" alt="SecureTask System Design" width="60%"><br>
     <em>Figure: An overview of the SecureTask system design, highlighting the flow of data and interactions.</em>
 </p>

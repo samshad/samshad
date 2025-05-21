@@ -34,7 +34,7 @@ In this project, I focused on transforming a vast dataset of Nova Scotia's publi
 ### Dashboard Snapshot
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/samshad/samshad/refs/heads/master/images/samshad/tender-dashboard.webp" alt="Public Tenders Dashboard Screenshot" width="50%">
+  <img src="/images/system-design/tender-dashboard.webp" alt="Public Tenders Dashboard Screenshot" width="50%">
   <br>
   <em>Figure: A glimpse of the interactive dashboard, bringing procurement trends to life.</em>
 </p>
