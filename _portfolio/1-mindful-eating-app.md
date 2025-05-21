@@ -35,7 +35,7 @@ This project was a journey in creating a truly personalized mindful eating exper
 ### System Architecture:
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/samshad/samshad/refs/heads/master/images/samshad/system-architecture.webp"
+  <img src="images/system-architecture.webp"
        alt="System Architecture" width="70%">
   <br>
   <em>Figure: A look under the hood – the system architecture of the AI-Powered Mindful Eating Companion.</em>
