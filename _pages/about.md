@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "Hey there! This is Samshad 👋"
-description: "Official portfolio of Md Samshad Rahman - MSc Applied CS grad, Python backend & LLM-fine-tuning specialist."
+description: "MSc Applied CS exploring LLM fine-tuning, behavioural data, and robust Python microservices—bridging labs and production; powered by espresso."
 keywords: ["Samshad", "Md Samshad", "Md Samshad Rahman", "Samshadru", "mdsamshad"]
 author_profile: true
 redirect_from:
