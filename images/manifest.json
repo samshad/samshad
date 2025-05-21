@@ -1,5 +1,6 @@
 {
-	"name": "OOjs UI icon academic-progressive",
+	"name": "Samshad",
+  	"short_name": "SR",
 	"icons": [
 		{
 			"src": "/images/favicon-192x192.png",
@@ -11,5 +12,8 @@
 			"sizes": "512x512",
 			"type": "image/png"
 		}
-	]
+	],
+	"theme_color": "#ffffff",
+  	"background_color": "#ffffff",
+ 	"display": "standalone"
 }
