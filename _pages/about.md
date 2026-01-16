@@ -1,44 +1,71 @@
 ---
 permalink: /
 title: "Hey there! This is Samshad 👋"
-description: "MSc Applied CS exploring LLM fine-tuning, behavioural data, and robust Python microservices—bridging labs and production; powered by espresso."
-keywords: ["Samshad", "Md Samshad", "Md Samshad Rahman", "Samshadru", "mdsamshad"]
+description: "AI & Backend Solutions Engineer. Fine-tuning Llama 3 LLMs and architecting serverless AWS systems that cut costs by 40%. Bridging Statistical Rigor & Scalable Engineering"
+keywords: ["Samshad", "Md Samshad", "Md Samshad Rahman", "Samshadru", "mdsamshad", "Samshad Rahman", "AI Engineer", "Backend Developer", "AWS Serverless", "LLM Fine-tuning", "Llama 3", "Python", "FastAPI", "Shamshad", "Shamsad"]
 author_profile: true
 redirect_from:
   - /about/
   - /about.html
 ---
 
-A story-obsessed coder who believes good coffee and a spark of curiosity can crack almost any puzzle.
+**I am an AI & Backend Solutions Engineer with a dual background in Applied Statistics and Computer Science.**
 
-My MSc in Applied Computer Science from Dalhousie? That equipped me to architect robust backend systems and explore the ever-evolving world of AI and Large Language Models, a field that truly tickles my ISFP-T curiosity. But that’s just the technical spec sheet.
-
-You know how some things just *click*? For me, it's the belief that the most elegant technology often mirrors a beautifully crafted narrative. Think of the sprawling, morally grey worlds of games like *The Witcher 3*, the intricate layers of a Christopher Nolan film, or even the surprisingly clear stories hidden within data. Passion drives me to seek these narratives, explore fresh indie music, and recharge with strong black coffee (the pure, unadulterated stuff – no milk, no sugar!) and the calming presence of the ocean.
-
-### Beyond the Code: What Really Gets Me Going?
-
-When I'm not wrangling code or untangling data patterns, what am I up to? You might find me…
-
-*   🎮 **Deep in Digital Worlds (and maybe overthinking them?).**
-    Ever get completely lost in a game's story, analyzing every choice? Same here. From the moral complexities of *The Witcher 3* (Yennefer's wit is unmatched, isn't it?) and *Red Dead Redemption 2*, to the neon-drenched streets of *Cyberpunk 2077* or the demanding paths of *Elden Ring*, I'm all in. I love seeing how decisions ripple out in games like *Life is Strange*. And yeah, about those 2000+ hours in *Lost Ark*… let’s just say the optimizer in me occasionally takes over. It’s the same buzz I get from a good tycoon game – that satisfying *click* when you find the most efficient path.
-
-*   🎬 **Unpacking Movies & Series (Warning: I *will* discuss theories!).**
-    Are you the type to stay for the end credits, already piecing together the foreshadowing? Then we'd get along. Psychological thrillers like *Shutter Island*, intricate crime dramas like *The Silence of the Lambs* (Hannibal is a fascinating study!), or shows that make your brain fizz like *Dark* or *Black Mirror* – that’s my jam. I live for a clever twist (*The Usual Suspects* still gets me), the rich universe of *Breaking Bad* and *Better Call Saul*, or the gut-punch storytelling of *BoJack Horseman*. Honestly, analyzing a brilliant plot feels a lot like debugging a particularly tricky piece of code.
-
-*   🎧 **Tuning In & Zoning Out with Indie Anthems.**
-    There’s a certain kind of magic in finding that perfect track, right? My coding sessions, and much of life, are scored by indie music. Those unique vocals and unexpected synth lines often help ideas *pop* and make challenges feel more approachable.
-
-*   ☕ **Powered by Unrelenting Black Coffee.**
-    Espresso or Americano, always black. My day is punctuated by it, sometimes 7-8 large cups (we all have our quirks!). That first potent sip? It’s like a system reboot. The world sharpens, ideas start to flow, and I’m ready to dive back into whatever awaits.
-
-*   🌊 **Finding Answers in the Ocean's Rhythm.**
-    Ever just need to step away from the screen and let your mind breathe? The ocean at night is my go-to. It doesn’t offer direct solutions, but the steady sound of the waves and that vast expanse create a space where clarity often washes in. It's a necessary pilgrimage from digital complexity to elemental simplicity.
+I don't just build models; I deploy them. My focus is on architecting production-grade systems, from fine-tuning LLMs for specialized tasks to building serverless AWS backends that scale effortlessly.
 
 ---
 
-### Enough About Me... What Are You Working On?
+## The Tech Stack
 
-What’s your current obsession, tech or otherwise? What problems are you trying to crack, or what story has you hooked? I genuinely love hearing what makes other people tick.
+* **Artificial Intelligence:** LLM Fine-Tuning (Llama 3.2, LoRA, UnslothAI), NLP (spaCy, BERTopic), AWS Rekognition.
+* **Backend Engineering:** Python (FastAPI, Django), RESTful APIs, Microservices.
+* **Cloud & DevOps:** AWS (Lambda, DynamoDB, API Gateway, ECS, S3), Docker, GitHub Actions CI/CD.
+* **Data Science:** PostgreSQL, ETL Pipelines, Dash/Plotly Visualization.
 
-Drop me a text on discord maybe! Let’s connect and maybe even nerd out together. I’ll bring the espresso... ☕
+---
+
+## Featured Engineering
+
+### 01. AI-Powered Mindful Eating App (Capstone)
+*Full-Stack AI Application | React Native, FastAPI, Llama 3.2, PostgreSQL*
+
+**The Challenge:** Generic AI advice wasn't enough. I needed a system that could understand user personality traits and deliver hyper-personalized dietary guidance on edge devices.
+* **The Solution:** Fine-tuned two **Meta Llama 3.2 (3B)** models using LoRA/Unsloth. Curated a dataset of 1,500 expert-verified tips mapped to Big-5 personality traits.
+* **The Impact:** Achieved **~88% relevance** in user-rated pilot tests.
+
+[View Case Study](/portfolio/1-mindful-eating-app/)
+
+### 02. SecureTask: Serverless Identity Verification
+*Cloud Architecture | AWS Lambda, DynamoDB, Rekognition, CloudFormation*
+
+**The Challenge:** Building a task management system that required military-grade identity verification without the overhead of managing servers.
+* **The Solution:** Architected a fully serverless backend. Implemented **Face-ID verification** (Selfie vs. ID Card) with >80% accuracy using AWS Rekognition.
+* **The Impact:** Slashed infrastructure costs by **~40%** compared to containerized alternatives.
+
+[View Case Study](/portfolio/4-SecureTask/)
+
+### 03. Public Tenders Intelligence Dashboard
+*Data Science & NLP | Python Dash, Plotly, BERTopic, Docker*
+
+**The Challenge:** Procurement analysts were drowning in 10 years of messy, unstructured tender data.
+* **The Solution:** Engineered automated ETL pipelines to clean data noise by **35%**. Applied **BERTopic** to automatically extract shifting procurement trends over a decade.
+* **The Impact:** Increased trend identification speed by **30%**.
+
+[View Case Study](/portfolio/2-public-tenders-dashboard/)
+
+---
+
+## Beyond the Code
+
+I believe the most elegant technology mirrors a beautifully crafted narrative. My approach to engineering is grounded in the same curiosity that drives me to deconstruct complex plots in cinema or optimize strategies in gaming.
+
+* **Narrative Analysis:** Whether it's the moral complexities of *The Witcher 3* or the foreshadowing in *Better Call Saul*, I treat storytelling like code, looking for the underlying logic that makes it work.
+* **Unrelenting Black Coffee:** My day is punctuated by 7-8 cups of Americano. It’s my system reboot.
+* **The Ocean's Rhythm:** When the digital complexity gets too loud, I find clarity in the elemental simplicity of the Atlantic ocean at night.
+
+---
+
+### Let's Build Something Scalable
+
+**Current Status:** Based in Halifax, NS. Open to roles in **AI Engineering**, **Backend Development**, and **Cloud Architecture**.
 
