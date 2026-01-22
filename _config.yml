@@ -22,6 +22,8 @@ keywords:
   - Md Samshad
   - Md Samshad Rahman
   - Samshadru
+  - shamshad
+  - sam
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -35,7 +37,7 @@ author:
   location         : "Halifax, NS, Canada" # Location of the author
   employer         : # Name of the employer
   uri              : # URL
-  email            : "samshad@dal.ca" # Email address of the author
+  email            : "samshad.ru@gmail.com" # Email address of the author
 
   # Academic websites
   academia         : # URL
@@ -58,7 +60,7 @@ author:
 
   # Social media
   bluesky          : # Replace this with you Bluesky username
-  facebook         : # Username
+  facebook         : "samshad.ru" # Username
   flickr           : # Username
   foursquare       : # Username
   goodreads        : # Username
