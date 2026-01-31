@@ -1,34 +1,29 @@
 ---
-title: "AI-Powered Mindful Eating App"
-excerpt: "I developed a personalized mobile app that uses finely-tuned AI (Llama 3) and a smart FastAPI backend to offer insightful dietary suggestions and help users build healthier, more mindful eating habits."
+title: "AI-Powered Mindful Eating Companion"
+excerpt: "I developed a personalized mobile app that uses fine-tuned AI (Llama 3) and a smart FastAPI backend to offer insightful dietary suggestions and help users build healthier, more mindful eating habits."
 collection: portfolio
 # github_link: https://github.com/samshad/mindful-eating-backend
 ---
 
-This project was a journey in creating a truly personalized mindful eating experience from the ground up. My goal was to blend cutting-edge AI with user-friendly design to make a real difference in how people approach their meals.
+**The Engineering Challenge:**
+To move beyond generic diet apps by architecting a context-aware system that adapts to user personality. The goal was to prove that lightweight, fine-tuned LLMs could deliver hyper-personalized health advice effectively on consumer hardware.
 
-*   **The Tech Backbone:** I architected and built the entire system using React Native (Expo) for a smooth mobile experience, Python (FastAPI) for a speedy and reliable backend, PostgreSQL for robust data management, and integrated Ollama/UnslothAI for powerful on-device/local LLM capabilities.
-*   **Smarter AI with Fine-Tuned LLMs:**
-    *   I took two Meta Llama 3.2 (3B) models and customized them using LoRA adapters on Google Colab (T4 GPUs) – this was key to the app's intelligence.
-    *   One model cleverly predicts a user's Big Five personality traits based on their questionnaire responses.
-    *   The other model crafts context-aware mindful eating tips, which users found **highly relevant (around 88% in pilot tests!)**.
-*   **Crafting a Unique Knowledge Base:** I meticulously curated a dataset of 1,500 mindful eating tips inspired by experts. These were carefully mapped across 10 eating behaviors and 5 personality types, then further refined with ChatGPT-4o, and validated by a registered dietitian and a psychologist to ensure quality and accuracy.
-*   **Powerful & Efficient Backend:** I engineered a robust FastAPI backend with REST APIs that handle everything smoothly:
-    *   Secure user sign-up, login, and profile management (including demographics, dietary preferences, and personality insights).
-    *   Easy goal setting and food logging (users can even snap a photo or just type).
-    *   Instant, intelligent responses from the fine-tuned AI.
-*   **Full-Stack Design & Development:** I designed and developed the mobile app, ensuring an intuitive flow for users to input their information, receive personalized AI feedback, and even chat with the AI for support.
-*   **Understanding Users Better:** To deepen personalization, I also trained a Big Five personality classifier using the Symanto NLP API on a dataset of 2,467 essays. This helps the app tailor advice even more effectively.
+**Core Architecture:**
+* **Mobile:** React Native (Expo) for cross-platform deployment.
+* **Backend:** High-concurrency **FastAPI** microservice handling logic and **PostgreSQL** for relational data integrity.
+* **AI Engine:** **Meta Llama 3.2 (3B)** fine-tuned via **LoRA/UnslothAI** to optimize inference on T4 GPUs.
 
-**What This Project Showcases:**
+**Key Technical Implementations:**
+* **Dual-Model Fine-Tuning Strategy:** I fine-tuned two distinct models. One predicts **Big-5 Personality Traits** from user text, and the second generates context-aware eating tips based on those traits.
+* **High-Quality Dataset Construction:** Solved the "garbage-in, garbage-out" problem by constructing a proprietary dataset of **1,500 expert-verified tips**. These were mapped to 10 specific eating behaviors and validated by a registered dietitian and psychologist to ensure safety and accuracy.
+* **Hybrid NLP Integration:** Integrated **Symanto NLP API** for psychographic text analysis on 2,400+ essays to benchmark and augment the local model's personality prediction capabilities.
+* **Full-Stack Optimization:** Built a seamless pipeline allowing multi-modal logging (text & photo) with real-time AI inference, achieving **~88% user-rated relevance** in pilot testing.
 
-*   **End-to-End Development:** From concept to a fully functional application.
-*   **Advanced AI/ML Skills:** Fine-tuning large language models (Llama 3, LoRA), dataset curation, and practical LLM integration.
-*   **Full-Stack Proficiency:** Expertise across the front-end (React Native), backend (FastAPI, Python), database (PostgreSQL), and MLOps (Ollama, UnslothAI).
-*   **User-Centric Design:** Focusing on creating a helpful, personalized, and engaging experience.
-*   **Problem-Solving & Innovation:** Combining diverse technologies to build a novel solution for promoting healthier habits.
+**What This Solved:**
+* **Personalization at Scale:** Bridged the gap between static rule-based apps and expensive human coaching.
+* **Cost-Effective AI:** Demonstrated that quantized, smaller models (3B) can outperform larger generic models when fine-tuned on high-quality domain data.
 
-**Technologies I Mastered & Used:** Python, FastAPI, PostgreSQL, React Native, Expo, Ollama, UnslothAI, LoRA, LLM Fine-Tuning, Google Colab, Symanto NLP API, Docker, AWS EC2.
+**Tech Stack:** Python, FastAPI, React Native, PostgreSQL, Llama 3.2, LoRA, UnslothAI, Docker, AWS EC2.
 
 [![Code on GitHub](https://img.shields.io/badge/Source-Code-blue?logo=github)](https://github.com/samshad/mindful-eating-backend)
 

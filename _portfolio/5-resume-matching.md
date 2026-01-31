@@ -1,36 +1,35 @@
 ---
 title: "Resume ⇔ Job Matching Engine"
-excerpt: "As a Junior Python Developer, I built an NLP-powered service that intelligently ranks resumes against job descriptions, using multi-class classification and named-entity extraction to streamline the recruitment process."
+excerpt: "Engineered an NLP-powered ranking microservice achieving 92% top-5 accuracy. Benchmarked and deployed a LinearSVC model via AWS ECS with auto-scaling to automate candidate screening."
 collection: portfolio
 # github_link: https://github.com/samshad/resume-job-matching
 ---
 
-During my time as a **Junior Python Developer at Smartbytes Ltd. (Bangladesh)**, I developed this project to tackle a common challenge: making the initial screening of resumes faster and more effective. My goal was to automate the tedious manual keyword searching and provide recruiters with a ranked list of the most suitable candidates.
+**The Engineering Challenge:**
+Recruitment processes were bottlenecked by manual keyword searching. The objective was to build an automated scoring engine capable of ingesting unstructured resume data and ranking candidates against job descriptions with high semantic accuracy.
 
-**Key Contributions & What I Built:**
+**Data Engineering & Feature Extraction:**
 
-*   **Comprehensive End-to-End Data Pipeline:**
-    *   I engineered a system to scrape and normalize over **15,000+** public resumes and job advertisements using Selenium and BeautifulSoup.
-    *   This structured text data was then stored efficiently in PostgreSQL via SQLAlchemy, creating a reliable foundation for repeatable experiments and model training.
-*   **Sophisticated Feature Engineering for Deeper Insights:**
-    *   Leveraging **spaCy and NLTK**, I implemented Named Entity Recognition (NER) to extract key information like skills, educational background, locations, and years of experience from the text.
-    *   I then generated TF-IDF vectors and engineered custom features such as "skill-overlap" and "seniority-gap" scores to capture more nuanced relationships between resumes and job descriptions.
-*   **High-Performance Multi-Class Matching Model:**
-    *   I rigorously benchmarked several models, including Logistic Regression and Random Forest. Ultimately, a **LinearSVC model proved most effective, boosting the macro-F1 score by approximately 40%** compared to the baseline.
-    *   The model achieved an impressive **top-5 match accuracy of 92%** when tested on a held-out set with 20 distinct job categories.
-*   **Efficient FastAPI Microservice for Real-Time Matching:**
-    *   I developed a REST API using FastAPI, featuring a `/match/` endpoint that accepts a resume and job description, returning a ranked list of candidates with corresponding confidence scores.
-    *   To support the frontend team of six developers, I ensured Swagger documentation was automatically generated for easy integration.
-*   **Streamlined Containerized Deployment:**
-    *   I containerized the application using Docker and set up a CI/CD pipeline with GitHub Actions to automatically push images to AWS ECR. The application was deployed as an AWS ECS service, configured to auto-scale based on CPU load.
+* **Automated Ingestion Pipeline:**
+    * Built a robust scraper using **Selenium** and **BeautifulSoup** to aggregate a training corpus of **15,000+** resumes and job descriptions.
+    * Implemented a normalized storage schema in **PostgreSQL** (via **SQLAlchemy**), creating a reliable ground-truth dataset for reproducible training.
+* **NLP Feature Engineering:**
+    * Leveraged **spaCy** and **NLTK** for Named Entity Recognition (NER), extracting structured entities (Skills, Education, Location) from unstructured text.
+    * Engineered custom interaction features, such as "Skill-Overlap Coefficient" and "Seniority-Gap," combined with **TF-IDF vectors** to capture nuance beyond simple keyword matching.
 
-**What This Project Highlights About My Abilities:**
+**Model Selection & Performance:**
 
-*   **Practical NLP Application:** Successfully applying techniques like NER, TF-IDF, and text classification (LinearSVC) to solve a real-world business problem.
-*   **Full-Cycle Machine Learning Development:** From data collection and preprocessing to feature engineering, model training, evaluation, and deployment.
-*   **Backend & API Development:** Proficiency in building robust and scalable microservices with Python and FastAPI.
-*   **Data Engineering & Management:** Experience with web scraping (Selenium, BeautifulSoup), data storage (PostgreSQL, SQLAlchemy), and building data pipelines.
-*   **DevOps & Cloud Deployment:** Skills in containerization (Docker) and CI/CD (GitHub Actions) for deployment on AWS (ECR, ECS).
-*   **Collaboration & Impact:** Delivering a tool that directly supported a development team and aimed to improve recruiter efficiency.
+* **Rigorous Benchmarking:**
+    * Evaluated multiple classifiers (Logistic Regression, Random Forest). **LinearSVC** proved superior for this high-dimensional sparse data, boosting the **macro-F1 score by ~40%** over the baseline.
+    * **Result:** The final model achieved a **92% top-5 match accuracy** across 20 distinct job categories, significantly reducing manual screening time.
 
-**Key Technologies I Employed:** Python, spaCy, NLTK, scikit-learn, FastAPI, SQLAlchemy, TF-IDF, LinearSVC, BeautifulSoup, Selenium, PostgreSQL, Docker, AWS ECS, GitHub Actions.
+**MLOps & Production Deployment:**
+
+* **Scalable Microservice Architecture:**
+    * Exposed the model via a high-performance **FastAPI** endpoint.
+    * Generated automated **Swagger/OpenAPI** documentation to streamline integration for the frontend development team.
+* **Containerization & CI/CD:**
+    * Dockerized the application and implemented a **GitHub Actions** CI/CD pipeline pushing to **AWS ECR**.
+    * Deployed on **AWS ECS** with configured **auto-scaling policies** based on CPU load to handle variable request traffic efficiently.
+
+**Technologies Leveraged:** Python, scikit-learn (LinearSVC), spaCy, NLTK, FastAPI, PostgreSQL, Docker, AWS ECS, GitHub Actions.
