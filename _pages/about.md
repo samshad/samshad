@@ -61,7 +61,7 @@ My downtime usually looks a lot like my work: analyzing systems. Whether I'm opt
 
 * **Gaming & Cinema:** I’m drawn to deep lore and complex mechanics. Favorites include *The Witcher 3* and *Better Call Saul*.
 * **Background Process:** Powered almost entirely by black coffee.
-* **Home Base:** Living in Halifax, NS. I clear my head by walking the coastline; it's the best way to debug a problem away from the screen.
+
 ---
 
 ### Let's Build Something Scalable
