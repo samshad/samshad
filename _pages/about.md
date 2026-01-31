@@ -1,71 +1,70 @@
 ---
 permalink: /
-title: "Hey there! This is Samshad 👋"
-description: "AI & Backend Solutions Engineer. Fine-tuning Llama 3 LLMs and architecting serverless AWS systems that cut costs by 40%. Bridging Statistical Rigor & Scalable Engineering"
-keywords: ["Samshad", "Md Samshad", "Md Samshad Rahman", "Samshadru", "mdsamshad", "Samshad Rahman", "AI Engineer", "Backend Developer", "AWS Serverless", "LLM Fine-tuning", "Llama 3", "Python", "FastAPI", "Shamshad", "Shamsad"]
+title: "Md Samshad Rahman | AI & Backend Solutions Engineer"
+description: "Bridging Statistical Rigor & Scalable Engineering. Specializing in LLM Fine-tuning, Serverless AWS Architecture, and Cost-Optimized Backend Systems."
+keywords: ["Samshad", "Md Samshad Rahman", "AI Engineer", "Backend Developer", "AWS Serverless", "LLM Fine-tuning", "Llama 3", "Python", "FastAPI", "Data Engineering"]
 author_profile: true
 redirect_from:
   - /about/
   - /about.html
 ---
 
-**I am an AI & Backend Solutions Engineer with a dual background in Applied Statistics and Computer Science.**
+**Turning Complex Data Science into Production-Grade Software.**
 
-I don't just build models; I deploy them. My focus is on architecting production-grade systems, from fine-tuning LLMs for specialized tasks to building serverless AWS backends that scale effortlessly.
+I am a Solutions Engineer with a dual background in **Applied Statistics** and **Computer Science**. My expertise lies in the "messy middle" of modern tech: taking a theoretical model or a raw business need and engineering a robust, scalable, and cost-effective production system around it.
 
----
-
-## The Tech Stack
-
-* **Artificial Intelligence:** LLM Fine-Tuning (Llama 3.2, LoRA, UnslothAI), NLP (spaCy, BERTopic), AWS Rekognition.
-* **Backend Engineering:** Python (FastAPI, Django), RESTful APIs, Microservices.
-* **Cloud & DevOps:** AWS (Lambda, DynamoDB, API Gateway, ECS, S3), Docker, GitHub Actions CI/CD.
-* **Data Science:** PostgreSQL, ETL Pipelines, Dash/Plotly Visualization.
+Whether it's fine-tuning Llama 3 on a budget or architecting an event-driven AWS backend that scales to zero, I build software that solves business problems.
 
 ---
 
-## Featured Engineering
+## 🛠️ Technical Arsenal
 
-### 01. AI-Powered Mindful Eating App (Capstone)
-*Full-Stack AI Application | React Native, FastAPI, Llama 3.2, PostgreSQL*
-
-**The Challenge:** Generic AI advice wasn't enough. I needed a system that could understand user personality traits and deliver hyper-personalized dietary guidance on edge devices.
-* **The Solution:** Fine-tuned two **Meta Llama 3.2 (3B)** models using LoRA/Unsloth. Curated a dataset of 1,500 expert-verified tips mapped to Big-5 personality traits.
-* **The Impact:** Achieved **~88% relevance** in user-rated pilot tests.
-
-[View Case Study](/portfolio/1-mindful-eating-app/)
-
-### 02. SecureTask: Serverless Identity Verification
-*Cloud Architecture | AWS Lambda, DynamoDB, Rekognition, CloudFormation*
-
-**The Challenge:** Building a task management system that required military-grade identity verification without the overhead of managing servers.
-* **The Solution:** Architected a fully serverless backend. Implemented **Face-ID verification** (Selfie vs. ID Card) with >80% accuracy using AWS Rekognition.
-* **The Impact:** Slashed infrastructure costs by **~40%** compared to containerized alternatives.
-
-[View Case Study](/portfolio/4-SecureTask/)
-
-### 03. Public Tenders Intelligence Dashboard
-*Data Science & NLP | Python Dash, Plotly, BERTopic, Docker*
-
-**The Challenge:** Procurement analysts were drowning in 10 years of messy, unstructured tender data.
-* **The Solution:** Engineered automated ETL pipelines to clean data noise by **35%**. Applied **BERTopic** to automatically extract shifting procurement trends over a decade.
-* **The Impact:** Increased trend identification speed by **30%**.
-
-[View Case Study](/portfolio/2-public-tenders-dashboard/)
+| Domain | Key Technologies |
+| :--- | :--- |
+| **AI & LLM Engineering** | Llama 3.2 (Fine-tuning), LoRA/UnslothAI, RAG Pipelines, spaCy, BERTopic |
+| **Cloud Architecture** | **AWS Serverless** (Lambda, DynamoDB Streams, API Gateway), CloudFormation (IaC) |
+| **Backend & DevOps** | Python (FastAPI/Django), Docker, GitHub Actions CI/CD, PostgreSQL |
+| **Data Engineering** | ETL Pipelines, Web Scraping (Selenium), Visual Analytics (Dash/Plotly) |
 
 ---
 
-## Beyond the Code
+## 🚀 Featured Engineering
 
-I believe the most elegant technology mirrors a beautifully crafted narrative. My approach to engineering is grounded in the same curiosity that drives me to deconstruct complex plots in cinema or optimize strategies in gaming.
+### [01. AI-Powered Mindful Eating Companion](/portfolio/1-mindful-eating-app/)
+*Generative AI & Mobile Engineering*
 
-* **Narrative Analysis:** Whether it's the moral complexities of *The Witcher 3* or the foreshadowing in *Better Call Saul*, I treat storytelling like code, looking for the underlying logic that makes it work.
-* **Unrelenting Black Coffee:** My day is punctuated by 7-8 cups of Americano. It’s my system reboot.
-* **The Ocean's Rhythm:** When the digital complexity gets too loud, I find clarity in the elemental simplicity of the Atlantic ocean at night.
+**The Challenge:** Generic health apps lack context. I needed a system that could "read" user personality and adapt its advice dynamically.
+* **The Engineering:** Fine-tuned two **Meta Llama 3.2 (3B)** models using LoRA adapters. Built a proprietary dataset of 1,500 expert-verified tips to ensure clinical safety.
+* **The Impact:** Achieved **~88% relevance** in user-rated pilot tests, running effectively on consumer-grade hardware.
 
+### [02. SecureTask: Serverless Identity Verification](/portfolio/4-SecureTask/)
+*Cloud Architecture & Security*
+
+**The Challenge:** Building a secure biometric task platform without the operational overhead and cost of managing GPU servers.
+* **The Engineering:** Architected a fully serverless AWS stack. Integrated **Rekognition** for face-ID (Selfie vs. ID) and used **CloudFormation** to deploy the infrastructure in <5 minutes.
+* **The Impact:** **Reduced infrastructure costs by ~40%** compared to legacy containerized solutions.
+
+### [03. Public Tenders Intelligence Dashboard](/portfolio/2-public-tenders-dashboard/)
+*Data Engineering & Visual Analytics*
+
+**The Challenge:** Procurement analysts were losing hours manually digging through 10 years of unstructured government tender data.
+* **The Engineering:** Built an automated ETL pipeline to clean data noise by **35%** and applied **BERTopic (NLP)** to surface hidden spending trends automatically.
+* **The Impact:** Accelerated trend identification speed by **30%**, transforming raw CSVs into strategic intelligence.
+
+[👉 View Full Project Portfolio](/portfolio/)
+
+---
+
+## 🧩 Off the Clock
+
+My downtime usually looks a lot like my work: analyzing systems. Whether I'm optimizing character builds in an RPG or dissecting the plot structure of a slow-burn thriller, I enjoy figuring out how things work.
+
+* **Gaming & Cinema:** I’m drawn to deep lore and complex mechanics. Favorites include *The Witcher 3* and *Better Call Saul*.
+* **Background Process:** Powered almost entirely by black coffee.
+* **Home Base:** Living in **Halifax, NS**. I clear my head by walking the coastline; it's the best way to debug a problem away from the screen.
 ---
 
 ### Let's Build Something Scalable
 
-**Current Status:** Based in Halifax, NS. Open to roles in **AI Engineering**, **Backend Development**, and **Cloud Architecture**.
-
+**Current Status:** Based in Halifax, NS.
+**Open To:** Roles in **AI Engineering**, **Backend Development**, and **Cloud Architecture**.
