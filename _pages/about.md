@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Md Samshad Rahman | AI & Backend Solutions Engineer"
+# title: "Md Samshad Rahman | AI & Backend Solutions Engineer"
 description: "Bridging Statistical Rigor & Scalable Engineering. Specializing in LLM Fine-tuning, Serverless AWS Architecture, and Cost-Optimized Backend Systems."
 keywords: ["Samshad", "Md Samshad Rahman", "AI Engineer", "Backend Developer", "AWS Serverless", "LLM Fine-tuning", "Llama 3", "Python", "FastAPI", "Data Engineering"]
 author_profile: true
