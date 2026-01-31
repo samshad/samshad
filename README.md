@@ -18,5 +18,3 @@ I'm a **Backend Developer** who enjoys solving real problems with code — from 
 * **Edge AI:** Quantization techniques for running LLMs on mobile devices.
 * **Advanced RAG:** Optimizing retrieval pipelines for complex document reasoning.
 * **Rust:** For high-performance data processing layers.
-
-[👔 LinkedIn](https://linkedin.com/in/samshadrahman)
