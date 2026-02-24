@@ -10,17 +10,17 @@ To build a highly concurrent RAG pipeline that doesn't block the main event loop
 
 **Core Architecture:**
 * **API Layer:** High-concurrency **FastAPI** leveraging async Python for zero-blocking HTTP I/O.
-* **Vector Database:** **Neon Serverless PostgreSQL** with the `pgvector` extension and `asyncpg` for optimized binary bulk data transfers.
-* **AI/LLM Engine:** **Ollama** orchestrating 1024-dimensional embeddings (`mxbai-embed-large`) and real-time text generation (`deepseek-r1:8b` / `Llama 3.2`).
+* **Vector Database:** **Neon Serverless PostgreSQL** with the **pgvector** extension and **asyncpg** for optimized binary bulk data transfers.
+* **AI/LLM Engine:** **Ollama** orchestrating 1024-dimensional embeddings (**mxbai-embed-large**) and real-time text generation (**deepseek-r1:8b** / **Llama 3.2**).
 
 
 
 **Key Technical Implementations:**
-* **Zero-Blocking Document Ingestion:** Offloaded CPU-bound `PyMuPDF` C-extension execution to background thread pools (`asyncio.to_thread`), safeguarding the event loop and ensuring the server remains responsive during massive file uploads.
+* **Zero-Blocking Document Ingestion:** Offloaded CPU-bound **PyMuPDF** C-extension execution to background thread pools (**asyncio.to_thread**), safeguarding the event loop and ensuring the server remains responsive during massive file uploads.
 * **Pure Python Semantic Chunking:** Engineered a custom $O(N)$ sliding-window text chunker that smartly snaps to natural punctuation boundaries, preserving semantic meaning without the overhead of third-party ML orchestration libraries.
 * **Cryptographic Deduplication:** Implemented SHA-256 fingerprinting on incoming document byte streams to instantly reject duplicate files, saving massive GPU embedding compute and preventing vector database bloat.
-* **Lightning-Fast Vector Search & Streaming:** Leveraged HNSW indexing and cosine distance (`<=>`) in Postgres for millisecond retrieval. The LLM's grounded response is streamed token-by-token directly to the client via FastAPI's `StreamingResponse`.
-* **Enterprise Observability:** Replaced standard Python text logging with `structlog` for strictly typed JSON telemetry, asynchronously piped into **Better Stack** for real-time cloud log aggregation and querying.
+* **Lightning-Fast Vector Search & Streaming:** Leveraged HNSW indexing and cosine distance (**⇔**) in Postgres for millisecond retrieval. The LLM's grounded response is streamed token-by-token directly to the client via FastAPI's **StreamingResponse**.
+* **Enterprise Observability:** Replaced standard Python text logging with **structlog** for strictly typed JSON telemetry, asynchronously piped into **Better Stack** for real-time cloud log aggregation and querying.
 
 **What This Solved:**
 * **Framework Bloat:** Eliminated the overhead, latency, and unpredictability of high-level wrappers (LangChain/LlamaIndex) to gain total, deterministic control over the execution flow.
