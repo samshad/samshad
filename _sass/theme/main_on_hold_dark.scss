@@ -11,7 +11,7 @@ $light-gray                 : mix(#fff, $gray, 50%);
 $background                 : #121212;
 $background-light           : mix(#fff, $background, 80%);
 $background-lighter         : mix(#fff, $background, 90%);
-$text                       : #E4E4E7; /* Softened from #ffffff to reduce halation/eye strain */
+$text                       : #ffffff;
 $link                       : #0ea1c5;
 $link-dark                  : mix(#000, $link, 25%);
 $link-light                 : mix(#fff, $link, 25%);
@@ -41,18 +41,12 @@ html[data-theme="dark"] {
     --global-footer-bg-color            : #{$background};
     --global-border-color               : #494e52;
     --global-dark-border-color          : #494e52;
-
-    /* Code block fixes */
-    --global-code-background-color      : #1A1A1A; /* Darkened from #fafafa to prevent blinding flash */
-    --global-code-text-color            : #e0e0e0; /* Lightened from $darker-gray to maintain readability */
-
+    --global-code-background-color      : #fafafa;
+    --global-code-text-color            : #{$darker-gray};
     --global-fig-caption-color          : #{$light-gray};
     --global-link-color                 : #{$link};
-
-    /* Link state fixes */
-    --global-link-color-hover           : #{$link-light}; /* Now brightens on hover */
-    --global-link-color-visited         : #{$link-dark};  /* Now dims when visited */
-
+    --global-link-color-hover           : #{$link-dark};
+    --global-link-color-visited         : #{$link-light};
     --global-masthead-link-color        : #{$text};
     --global-masthead-link-color-hover  : #{$background-light};
     --global-text-color                 : #{$text};
