@@ -1,30 +1,30 @@
 ---
 permalink: /
-# title: "Md Samshad Rahman | AI & Backend Solutions Engineer"
-description: "Bridging Statistical Rigor & Scalable Engineering. Specializing in LLM Fine-tuning, Serverless AWS Architecture, and Cost-Optimized Backend Systems."
-keywords: ["Samshad", "Md Samshad Rahman", "AI Engineer", "Backend Developer", "AWS Serverless", "LLM Fine-tuning", "Llama 3", "Python", "FastAPI", "Data Engineering"]
+# title: "Md Samshad Rahman | Software Developer, Data Scientist, Data Analyst, Technical Support, AI Solution Engineer"
+description: "I build backend systems, explore LLMs, and find the stories hidden inside data. Based in Halifax - open to new opportunities."
+keywords: ["Samshad", "Md Samshad Rahman", "AI Engineer", "Backend Developer", "AWS Serverless", "LLM Fine-tuning", "Llama 3", "Python", "FastAPI", "Data Engineering", "Data Scientist", "Data Analyst", "Technical Support"]
 author_profile: true
 redirect_from:
   - /about/
   - /about.html
 ---
 
-**Turning Complex Data Science into Production-Grade Software.**
+**I turn messy data science problems into production-grade software.**
 
-I am a Solutions Engineer with a dual background in **Applied Statistics** and **Computer Science**. My expertise lies in the "messy middle" of modern tech: taking a theoretical model or a raw business need and engineering a robust, scalable, and cost-effective production system around it.
+I have dual Master's degrees in Applied Statistics and Computer Science, but what actually gets me going is messy data. I'm the kind of person who'll happily spend hours digging through a broken dataset to find what's hiding underneath.
 
-Whether it's fine-tuning Llama 3 on a budget or architecting an event-driven AWS backend that scales to zero, I build software that solves business problems.
+Over the last few years I've built data pipelines, fine-tuned LLMs for production, designed dashboards, and written more validation scripts than I can count. I'm comfortable on the technical side and equally comfortable explaining what the numbers mean to people who don't live in spreadsheets.
 
 ---
 
 ## 🛠️ Technical Arsenal
 
-| Domain | Key Technologies |
-| :--- | :--- |
-| **AI & LLM Engineering** | Llama 3.2 (Fine-tuning), LoRA/UnslothAI, RAG Pipelines, spaCy, BERTopic |
-| **Cloud Architecture** | **AWS Serverless** (Lambda, DynamoDB Streams, API Gateway), CloudFormation (IaC) |
-| **Backend & DevOps** | Python (FastAPI/Django), Docker, GitHub Actions CI/CD, PostgreSQL |
-| **Data Engineering** | ETL Pipelines, Web Scraping (Selenium), Visual Analytics (Dash/Plotly) |
+| Domain | Key Technologies                                                             |
+| :--- |:-----------------------------------------------------------------------------|
+| **AI & LLM Engineering** | Llama 3.2 (Fine-tuning), LoRA/UnslothAI, RAG Pipelines, spaCy, BERTopic      |
+| **Cloud Architecture** | AWS Serverless (Lambda, DynamoDB Streams, API Gateway), CloudFormation (IaC) |
+| **Backend & DevOps** | Python (FastAPI/Django), Docker, GitHub Actions CI/CD, PostgreSQL            |
+| **Data Engineering** | ETL Pipelines, Web Scraping (Selenium), Visual Analytics (Dash/Plotly)       |
 
 ---
 
@@ -57,14 +57,11 @@ Whether it's fine-tuning Llama 3 on a budget or architecting an event-driven AWS
 
 ## 🧩 Off the Clock
 
-My downtime usually looks a lot like my work: analyzing systems. Whether I'm optimizing character builds in an RPG or dissecting the plot structure of a slow-burn thriller, I enjoy figuring out how things work.
-
-* **Gaming & Cinema:** I’m drawn to deep lore and complex mechanics. Favorites include *The Witcher 3* and *Better Call Saul*.
-* **Background Process:** Powered almost entirely by black coffee.
+Outside work, I get absorbed in narrative games (Witcher 3, RDR2, Kingdom Come Deliverance...), psychological thrillers, and indie music. Strong black coffee required. Always...
 
 ---
 
 ### Let's Build Something Scalable
 
 **Current Status:** Based in Halifax, NS.
-**Open To:** Roles in **AI Engineering**, **Backend Development**, and **Cloud Architecture**.
+**Open To:** Roles in **AI Engineering**, **Backend Development**, **Data Science**, **DevOps**, **Technical Support**, and **Data Engineering**.
