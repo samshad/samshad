@@ -1,4 +1,4 @@
-I'm a **Backend Developer** who enjoys solving real problems with code — from building fast and clean APIs to making sense of messy data. I love working at the intersection of **backend systems**, **data**, and **AI**.
+I'm a **Backend Developer** who enjoys solving real problems with code — from building fast and clean APIs to making sense of raw data. I love working at the intersection of **backend systems**, **data**, and **AI**.
 
 ---
 
