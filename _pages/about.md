@@ -49,6 +49,8 @@ A visual analytics project built around public tender data from Nova Scotia. The
 
 The goal was simple: turn raw public data into something people could explore, question, and use.
 
+[View Full Project Portfolio](/portfolio/)
+
 ## More than a stack
 
 I started with competitive programming, where the job is to understand constraints before writing a solution. That habit still carries into my work. I like getting close to the actual problem, asking what can go wrong, and building systems that are easier for the next person to understand and work with.
