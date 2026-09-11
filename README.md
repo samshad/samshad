@@ -1,20 +1,16 @@
-I'm a **Backend Developer** who enjoys solving real problems with code — from building fast and clean APIs to making sense of raw data. I love working at the intersection of **backend systems**, **data**, and **AI**.
+<p align="center">
+  <img src="images/profile-banner.jpg" alt="Md Samshad Rahman building AI systems that actually ship" width="100%">
+</p>
 
----
+I build Python systems for problems that start with raw data, manual workflows, or an idea that needs to become a dependable product. My work sits between backend engineering and applied AI, including APIs, data pipelines, retrieval systems, and the infrastructure around them. I focus on the parts that make a project useful in practice: clear data models, reliable services, validation, and deployment.
 
-### 🚀 What I Focus On
+## Tools I Work With
 
-| Domain | Stack |
-| :--- | :--- |
-| **🚀 Backend & API** | Python (**FastAPI**, Django, Flask), REST, GraphQL, Microservices |
-| **🤖 Applied AI** | **Llama 3.2** (Fine-tuning), LoRA/UnslothAI, spaCy, BERTopic, AWS Rekognition |
-| **☁️ Cloud & DevOps** | **AWS Serverless** (Lambda, DynamoDB, API Gateway), Docker, GitHub Actions, CloudFormation |
-| **💾 Data Engineering** | PostgreSQL, MySQL, ETL Pipelines, Web Scraping (Selenium/Bs4) |
+**Backend & data**  
+Python · FastAPI · Django · Flask · PostgreSQL · MySQL · SQLAlchemy · Redis · REST APIs · GraphQL · ETL
 
----
+**Applied AI**  
+LLMs · RAG · pgvector · Ollama · Llama · LoRA · PyTorch · scikit-learn · spaCy · BERTopic
 
-### 🌱 Currently Exploring
-
-* **Edge AI:** Quantization techniques for running LLMs on mobile devices.
-* **Advanced RAG:** Optimizing retrieval pipelines for complex document reasoning.
-* **Rust:** For high-performance data processing layers.
+**Infrastructure**  
+Docker · AWS · GitHub Actions · CloudFormation · Linux · CI/CD
