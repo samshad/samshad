@@ -31,19 +31,19 @@ Docker · AWS · Lambda · API Gateway · S3 · CloudFormation · GitHub Actions
 
 ## A few things I've built
 
-### [FastAPI RAG Engine](/portfolio/fastapi-rag-engine/)
+### [FastAPI RAG Engine](/portfolio/0-fastapi-rag-engine/)
 
 A retrieval-augmented generation backend built with FastAPI, PostgreSQL with pgvector, and Ollama. It supports asynchronous processing, semantic chunking, streamed responses, authentication, and multi-tenant data access.
 
 The project is intentionally focused on the service around the model, not just the chat response. It is a practical look at the API, database, retrieval, and deployment concerns behind a RAG application.
 
-### [Mindful Eating Companion](/portfolio/mindful-eating-app/)
+### [Mindful Eating Companion](/portfolio/1-mindful-eating-app/)
 
 A personalized digital intervention that combines behavioural data, a mobile application, backend services, and AI-assisted guidance. I worked on the FastAPI backend, PostgreSQL data layer, personality-based personalization, and LLM integration.
 
 It was a useful project for thinking through how a model fits into a real product, including data flow, validation, API design, and the needs of the mobile client.
 
-### [Public Tenders Dashboard](/portfolio/public-tenders-dashboard/)
+### [Public Tenders Dashboard](/portfolio/2-public-tenders-dashboard/)
 
 A visual analytics project built around public tender data from Nova Scotia. The work involved preparing and exploring the data, then using clustering and BERTopic to make patterns in a large collection of records easier to investigate.
 
@@ -57,4 +57,4 @@ I started with competitive programming, where the job is to understand constrain
 
 I am based in Halifax, Nova Scotia, and open to conversations about backend engineering, data systems, and applied AI work.
 
-You can find me on [LinkedIn](https://www.linkedin.com/in/samshadrahman/), browse the code on [GitHub](https://github.com/samshad), or reach me at [samshad.ru@gmail.com](mailto:samshad.ru@gmail.com).
+You can find me on [LinkedIn](https://www.linkedin.com/in/samshadrahman/), browse the code on [GitHub](https://github.com/samshad).
