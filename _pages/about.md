@@ -9,59 +9,52 @@ redirect_from:
   - /about.html
 ---
 
-**I turn messy data science problems into production-grade software.**
+I build Python systems for problems that start with raw data, manual workflows, or an idea that needs to become a dependable product.
 
-I have dual Master's degrees in Applied Statistics and Computer Science, but what actually gets me going is messy data. I'm the kind of person who'll happily spend hours digging through a broken dataset to find what's hiding underneath.
+My work sits between backend engineering and applied AI. That can mean building APIs and data pipelines, designing retrieval systems, or putting the infrastructure around a model so that it can actually be used and maintained.
 
-Over the last few years I've built data pipelines, fine-tuned LLMs for production, designed dashboards, and written more validation scripts than I can count. I'm comfortable on the technical side and equally comfortable explaining what the numbers mean to people who don't live in spreadsheets.
+I care about the parts that are easy to skip in a demo: clear data models, reliable services, validation, documentation, and deployment. I have backgrounds in computer science and applied statistics, which helps me look at both the technical system and the data behind it.
 
----
+## What I work with
 
-## 🛠️ Technical Arsenal
+**Backend and data**
 
-| Domain | Key Technologies                                                             |
-| :--- |:-----------------------------------------------------------------------------|
-| **AI & LLM Engineering** | Llama 3.2 (Fine-tuning), LoRA/UnslothAI, RAG Pipelines, spaCy, BERTopic      |
-| **Cloud Architecture** | AWS Serverless (Lambda, DynamoDB Streams, API Gateway), CloudFormation (IaC) |
-| **Backend & DevOps** | Python (FastAPI/Django), Docker, GitHub Actions CI/CD, PostgreSQL            |
-| **Data Engineering** | ETL Pipelines, Web Scraping (Selenium), Visual Analytics (Dash/Plotly)       |
+Python · FastAPI · Django · Flask · PostgreSQL · MySQL · SQLAlchemy · Redis · REST APIs · GraphQL · ETL pipelines · Data validation
 
----
+**Applied AI**
 
-## 🚀 Featured Engineering
+LLMs · Fine-tuning · RAG · pgvector · Ollama · Llama · LoRA · PyTorch · scikit-learn · spaCy · BERTopic
 
-### [01. AI-Powered Mindful Eating Companion](/portfolio/1-mindful-eating-app/)
-*Generative AI & Mobile Engineering*
+**Cloud and delivery**
 
-**The Challenge:** Generic health apps lack context. I needed a system that could "read" user personality and adapt its advice dynamically.
-* **The Engineering:** Fine-tuned two **Meta Llama 3.2 (3B)** models using LoRA adapters. Built a proprietary dataset of 1,500 expert-verified tips to ensure clinical safety.
-* **The Impact:** Achieved **~88% relevance** in user-rated pilot tests, running effectively on consumer-grade hardware.
+Docker · AWS · Lambda · API Gateway · S3 · CloudFormation · GitHub Actions · CI/CD
 
-### [02. SecureTask: Serverless Identity Verification](/portfolio/4-SecureTask/)
-*Cloud Architecture & Security*
+## A few things I've built
 
-**The Challenge:** Building a secure biometric task platform without the operational overhead and cost of managing GPU servers.
-* **The Engineering:** Architected a fully serverless AWS stack. Integrated **Rekognition** for face-ID (Selfie vs. ID) and used **CloudFormation** to deploy the infrastructure in <5 minutes.
-* **The Impact:** **Reduced infrastructure costs by ~40%** compared to legacy containerized solutions.
+### [FastAPI RAG Engine](/portfolio/fastapi-rag-engine/)
 
-### [03. Public Tenders Intelligence Dashboard](/portfolio/2-public-tenders-dashboard/)
-*Data Engineering & Visual Analytics*
+A retrieval-augmented generation backend built with FastAPI, PostgreSQL with pgvector, and Ollama. It supports asynchronous processing, semantic chunking, streamed responses, authentication, and multi-tenant data access.
 
-**The Challenge:** Procurement analysts were losing hours manually digging through 10 years of unstructured government tender data.
-* **The Engineering:** Built an automated ETL pipeline to clean data noise by **35%** and applied **BERTopic (NLP)** to surface hidden spending trends automatically.
-* **The Impact:** Accelerated trend identification speed by **30%**, transforming raw CSVs into strategic intelligence.
+The project is intentionally focused on the service around the model, not just the chat response. It is a practical look at the API, database, retrieval, and deployment concerns behind a RAG application.
 
-[👉 View Full Project Portfolio](/portfolio/)
+### [Mindful Eating Companion](/portfolio/mindful-eating-app/)
 
----
+A personalized digital intervention that combines behavioural data, a mobile application, backend services, and AI-assisted guidance. I worked on the FastAPI backend, PostgreSQL data layer, personality-based personalization, and LLM integration.
 
-## 🧩 Off the Clock
+It was a useful project for thinking through how a model fits into a real product, including data flow, validation, API design, and the needs of the mobile client.
 
-Outside work, I get absorbed in narrative games (Witcher 3, RDR2, Kingdom Come Deliverance...), psychological thrillers, and indie music. Strong black coffee required. Always...
+### [Public Tenders Dashboard](/portfolio/public-tenders-dashboard/)
 
----
+A visual analytics project built around public tender data from Nova Scotia. The work involved preparing and exploring the data, then using clustering and BERTopic to make patterns in a large collection of records easier to investigate.
 
-### Let's Build Something Scalable
+The goal was simple: turn raw public data into something people could explore, question, and use.
 
-**Current Status:** Based in Halifax, NS.
-**Open To:** Roles in **AI Engineering**, **Backend Development**, **Data Science**, **DevOps**, **Technical Support**, and **Data Engineering**.
+## More than a stack
+
+I started with competitive programming, where the job is to understand constraints before writing a solution. That habit still carries into my work. I like getting close to the actual problem, asking what can go wrong, and building systems that are easier for the next person to understand and work with.
+
+## Get in touch
+
+I am based in Halifax, Nova Scotia, and open to conversations about backend engineering, data systems, and applied AI work.
+
+You can find me on [LinkedIn](https://www.linkedin.com/in/samshadrahman/), browse the code on [GitHub](https://github.com/samshad), or reach me at [samshad.ru@gmail.com](mailto:samshad.ru@gmail.com).
